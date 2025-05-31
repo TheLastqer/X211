@@ -46,3 +46,13 @@ end
 
 end
 end)
+
+local Tab = Window:NewSection("Links")
+
+Tab:CreateButton("Discord Group", function()
+print("HI")
+ 
+setclipboard("https://discord.gg/f9CEfBPJ")
+toclipboard("https://discord.gg/f9CEfBPJ")
+ 
+end)
